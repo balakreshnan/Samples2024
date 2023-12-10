@@ -19,20 +19,20 @@
 - Select mistralai-Mistral-7B-v01
 - Click fine tune
 
-![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/mistralai1.jpg, 'Mistralai')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/mistralai1.jpg 'Mistralai')
 
 - Select the training dataset
 - First upload the helpsteerTM dataset in upload screen
 
-![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/mistralai1-1.jpg, 'Mistralai')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/mistralai1-1.jpg 'Mistralai')
 
 - Click Next
 
-![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/mistralai2.jpg, 'Mistralai')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/mistralai2.jpg 'Mistralai')
 
 - Now do the same for validation dataset
 
-![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/mistralai3.jpg, 'Mistralai')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/mistralai3.jpg 'Mistralai')
 
 - Now click Submit and wait for the training to complete
 - Can take hours to complete
