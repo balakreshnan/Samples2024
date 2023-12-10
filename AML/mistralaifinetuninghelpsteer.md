@@ -7,7 +7,7 @@
 - Download helpsteerTM dataset from: https://huggingface.co/datasets/nvidia/HelpSteer
 - Make sure you have GPU enabled compute cluster with 8 A100 GPU machines
 
-![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/mistralai4.jpg, 'Mistralai')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/mistralai4.jpg 'Mistralai')
 
 ## Steps
 
