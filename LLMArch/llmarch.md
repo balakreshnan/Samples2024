@@ -6,6 +6,7 @@
 
 - Build a Chat style generation ai application using LLM (Long Language Model) and RAG (Retrieval Augmented Generation) architecture.
 - LLM is a language model that can generate text of arbitrary length.
+- Using your own Company or Enterprise documents to build the LLM application.
 - RAG is a retrieval augmented generation model that can generate text by referring to a document.
 - Most effective and economical way to build a generation ai application.
 - Please choose use cases that can be solved by generation ai application.
@@ -27,6 +28,7 @@ Note: This is to show how to build a LLM application using RAG architecture.
 ### 2. LLM Application
 
 - First and foremost collect the documents for the use case.
+- Most important is to use the LLM with your own datasets.
 - Research and and find the best way to chunk the document for example page, or chunk size with leading and trailing sentences.
 - Use the Azure open ai ada model version 2 to create the embeddings for the documents.
 - Once all the embeddings are created store them in a AI vector index or database.
