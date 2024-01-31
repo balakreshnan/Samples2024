@@ -1,10 +1,10 @@
-# Azure Machine learning Model catalog finetuning PHI - 2
+# Azure AI Studio Model catalog deploy Realtime Endpoint PHI - 2
 
 ## Introduction
 
-- Finetune PHI model
-- Finetune from Model Catalog UI
-- Using Azure Machine Learning
+- Realtime Endpoint PHI model
+- Realtime from Model Catalog UI
+- Using Azure AI Studio Model Catalog
 - GPU compute needed
 - SKU can change based on the model
 - For PHI 2 model we need Standard_NC24s_v3 SKU
