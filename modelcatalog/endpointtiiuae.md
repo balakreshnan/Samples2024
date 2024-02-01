@@ -1,4 +1,4 @@
-# Azure AI Studio Model catalog deploy Realtime Endpoint PHI - 2
+# Azure AI Studio Model catalog deploy Realtime Endpoint Tiiuae 40B
 
 ## Introduction
 
