@@ -391,3 +391,7 @@ python kustochatui.py
 ```
 
 ![info](https://github.com/balakreshnan/Samples2024/blob/main/GradioUI/images/kustochatui1.jpg 'RagChat')
+
+- output
+
+![info](https://github.com/balakreshnan/Samples2024/blob/main/GradioUI/images/kustochatui2.jpg 'RagChat')
