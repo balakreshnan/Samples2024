@@ -305,8 +305,10 @@ import time
 
 name = "aisearch-assistant"
 instructions = """You are an assistant designed to help people answer questions.
-
-You have access to query the web using azure cognitive ai Search. You should call ai search whenever a question requires up to date information or could benefit from profiles data.
+You have access to query the web using azure cognitive ai Search. 
+You should call ai search whenever a question requires up to date information or could benefit from profiles data.
+Only answer from ai search content provided by tools.
+Show the sources as citations as link [link]
 """
 
 message = {"role": "user", "content": query}
@@ -351,6 +353,11 @@ poll_run_till_completion(
     client=client, thread_id=thread.id, run_id=run.id, available_functions=available_functions, verbose=verbose_output
 )
 messages = retrieve_and_print_messages(client=client, thread_id=thread.id, verbose=verbose_output)
+
+  
+messages = client.beta.threads.messages.list(
+  thread_id=thread.id)
+print(messages.data[0].content[0].text.value)
 ```
 
 - now check for status
