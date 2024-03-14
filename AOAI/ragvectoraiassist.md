@@ -69,6 +69,8 @@ client = AzureOpenAI(
 ```
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents import SearchClient
+from azure.search.documents.indexes import SearchIndexClient
+from azure.search.documents.models import VectorizedQuery
 
 
 search_client = SearchClient(search_endpoint, index_name, AzureKeyCredential(key))
@@ -82,7 +84,9 @@ from typing import Optional
 def searchai(searchtext):
     searchcontent= ""
     search_client = SearchClient(search_endpoint, index_name, AzureKeyCredential(key))
-    results = search_client.search(search_text="CEO Role")
+    vector_query = VectorizedQuery(vector=get_embeddings(searchtext), k_nearest_neighbors=5, fields="contentVector")#
+    #results = search_client.search(search_text=searchtext)
+    results = search_client.search(vector_queries=[vector_query])
     for result in results:
         print("{}: {})".format(result["url"], result["content"]))
         searchcontent += f"{result['content']} : {result['url']}"
@@ -293,6 +297,10 @@ def retrieve_and_print_messages(
 - now ask questions
 
 ```
+query = "List top 5 candidates for Strategic leadership role with details?"
+```
+
+```
 import time
 
 name = "aisearch-assistant"
@@ -301,7 +309,7 @@ instructions = """You are an assistant designed to help people answer questions.
 You have access to query the web using azure cognitive ai Search. You should call ai search whenever a question requires up to date information or could benefit from profiles data.
 """
 
-message = {"role": "user", "content": "List top 5 candidates for CEO role with details?"}
+message = {"role": "user", "content": query}
 
 
 tools = [
@@ -343,8 +351,21 @@ poll_run_till_completion(
     client=client, thread_id=thread.id, run_id=run.id, available_functions=available_functions, verbose=verbose_output
 )
 messages = retrieve_and_print_messages(client=client, thread_id=thread.id, verbose=verbose_output)
+```
 
-  
+- now check for status
+
+```
+run = client.beta.threads.runs.retrieve(
+  thread_id=thread.id,
+  run_id=run.id)
+#time.sleep(2.5)
+print(run.status)
+```
+
+- print message
+
+```  
 messages = client.beta.threads.messages.list(
   thread_id=thread.id)
 print(messages.data[0].content[0].text.value)
@@ -353,41 +374,22 @@ print(messages.data[0].content[0].text.value)
 - output
 
 ```
-Certainly! Analyzing candidates' profiles and their skills requires a systematic approach to understanding where each candidate excels and where they may need improvement. Here's a step-by-step explanation of how this kind of analysis can be conducted:
+Based on the profiles found, here are the top candidates that hold significant strategic leadership roles:
 
-1. **Data Collection**: The first step is to gather comprehensive data on each candidate. This data might include:
+1. Senior Managing Director at Accenture with experience in leading global teams to drive innovation in CEO and leadership mindsets, talent, and cultures. Previously held roles like Vice President of Inclusion & Diversity at Apple and various other leadership positions at Deloitte, GRAIL, and more. Education includes a Ph.D. from New York University.
+   - Profile: [Senior Managing Director at Accenture](https://synpasedlstore.blob.core.windows.net/acccsuite/Profile%20(44).pdf)
 
-   - **Educational Background**: Degrees, certifications, and relevant coursework.
-   - **Professional Experience**: Previous positions held, duration, roles, and responsibilities.
-   - **Skill Set**: A list of technical and soft skills, languages known, software proficiency, etc.
-   - **Skill Assessments**: Scores or evaluations of the candidate's skills, possibly from standardized tests or assessments.
-   - **Progression Over Time**: Information on how the candidate's skills have improved over different time periods.
-   - **Feedback**: Comments or reviews from peers, supervisors, or mentors.
+2. Former Chief Technology Officer at Accenture Technology with a record of leading massive talent and leadership development programs across 300,000 employees. Instrumental in Accenture's digital transformation and has partnered with top academic institutions for learning programs.
+   - Profile: [CTO at Accenture Technology](https://synpasedlstore.blob.core.windows.net/acccsuite/Profile%20(49).pdf)
 
-2. **Data Structuring**: The collected data must be structured in a format that's easy for analysis, such as a spreadsheet or a database. Each candidate's information should be consistently recorded to allow for comparative analysis.
+3. Arjun Bedi – Strategic Clients Portfolio Lead and member of Accenture’s Global Management Committee. Known for operational and P&L leadership, digital/technology innovation, and CEO/C-Suite advisory. Over 25 years of leadership at Accenture, he has been influential in the Life Sciences industry.
+   - LinkedIn Profile: [Arjun Bedi LinkedIn](https://www.linkedin.com/in/arjun-bedi-ba6251)
 
-3. **Data Cleaning**: Before analysis, the data should be cleaned to remove any inaccuracies, inconsistencies, or irrelevant information.
+4. Senior Managing Director at Accenture, holding the position of Market Unit Lead – US Northeast on the Global Management Committee since June 2022. Other roles include North America Client Account Lead and Global Industry Sector Lead - Life Sciences at Accenture.
+   - Profile: [Senior Managing Director - Market Unit Lead – US Northeast](https://synpasedlstore.blob.core.windows.net/acccsuite/Profile%20(4).pdf)
 
-4. **Analysis**: The analysis involves several sub-steps:
-   
-   - Identifying key skills that are important for the roles you're hiring for.
-   - Comparing each candidate's skill set against these key skills.
-   - Evaluating progression by looking at how skills have developed over time.
-   - Assessing any gaps where a candidate might lack certain skills or experience.
+5. A strategic leadership profile with experience as Vice President of Strategy & Innovation at AstraZeneca, as well as leadership roles in IBM Global Business Services and Coopers & Lybrand. Education from Harvard Business School Executive Education and the Wharton School.
+   - Profile: [Vice President of Strategy & Innovation at AstraZeneca](https://synpasedlstore.blob.core.windows.net/acccsuite/Profile%20(26).pdf)
 
-5. **Insight Generation**: From the analysis, insights can be drawn about each candidate’s strengths and weaknesses. Some possible insights might include:
-
-   - **Improvements**: Areas where candidates have shown notable skill growth or increased competencies.
-   - **Skill Gaps**: Skills that are lacking or underdeveloped in comparison to the desired profiles.
-   - **Potential for Growth**: Candidates with the potential to develop certain skills, based on their learning trajectory or adaptability.
-   - **Comparative Evaluation**: How candidates stack up against one another in terms of skills and experiences relevant to the job.
-
-6. **Recommendations**: Finally, based on the insights, recommendations can be provided. These might include:
-
-   - Suggesting specific training or learning modules to candidates to improve their skills.
-   - Recommending candidates for roles that match their current skill set.
-   - Advising on the development of personalized career growth plans for candidates to help them close the skill gaps.
-   - Guiding the hiring process by identifying which candidates are well-suited for certain positions.
-
-To do all of this, I would need the relevant data which could be analyzed to provide you with the insights and recommendations. If you have such data, you can provide it in an anonymized and non-sensitive format, and I can assist you with the analysis. If you don't have the data but are looking for advice on how to proceed, I can guide you on structuring your data collection and analysis process to fit your needs.
+These candidates have demonstrated extensive experience in leadership roles, particularly in areas related to strategy, transformation, and innovation, critical competencies for strategic leadership positions.
 ```
