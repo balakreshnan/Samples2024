@@ -70,8 +70,8 @@ from trl import SFTTrainer
 
 ```
 # Model from Hugging Face hub
-#base_model = "meta-llama/Llama-2-7b-chat-hf"
-base_model = "microsoft/phi-2"
+base_model = "meta-llama/Llama-2-7b-chat-hf"
+#base_model = "microsoft/phi-2"
 
 # New instruction dataset
 # guanaco_dataset = "mlabonne/guanaco-llama2-1k"
