@@ -25,6 +25,14 @@ df = pd.read_csv('IPL_data.csv')
 pd.set_option('display.max_columns', None)
 ```
 
+- load keys
+
+```
+from dotenv import dotenv_values
+
+config = dotenv_values("env.env")
+```
+
 - invoke Azure Open AI
 
 ```
