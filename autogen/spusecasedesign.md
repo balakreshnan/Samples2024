@@ -1,4 +1,4 @@
-# Designing a product for a specific use case using microsoft autogen
+# Designing a software product for a specific use case using microsoft autogen
 
 ## Introduction
 
