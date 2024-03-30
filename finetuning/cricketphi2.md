@@ -1,4 +1,4 @@
-# Fine tuning PHI 2 with Azure Machine learning and upload to hugging face - Cricket Dataset
+# Fine tuning PHI 2 with Azure Machine learning and upload to hugging face - Cricket IPL Dataset
 
 ## Introduction
 
@@ -6,7 +6,7 @@
 - Using open source dataset for public documentation
 - Using PHI 2 model
 - Then uploading to a my new repo
-- Creating my own Cricket dataset
+- Creating my own Cricket dataset from IPL data
 
 ## Requirements
 
