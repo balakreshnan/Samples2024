@@ -261,3 +261,10 @@ tokenizer.push_to_hub(new_model, use_temp_dir=False)
 ```
 
 ![info](https://github.com/balakreshnan/Samples2024/blob/main/finetuning/images/phi2cricketipl-5.jpg 'RagChat')
+
+- here is the huggingface link to the model
+- huggingface url: https://huggingface.co/Balab2021/phi2cricketipl
+
+```
+Note: this is for learning and documentation purpose only.
+```
