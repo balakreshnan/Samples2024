@@ -81,6 +81,16 @@ def encode_image(image_path):
 ```
 
 - function to process image and extract information
+- System prompt
+- now here is the prompt
+
+```
+imgprompt = """You are a Construction Architect Agent. Analyze the diagram and find details for questions asked.
+Only answer from the data source provided.
+Extract the squre footage of where to Bath room, rest room, Shower, toilet, Kitchen 
+from the architectural diagram provided?. 
+"""
+```
 
 ```
 def processimage(base64_image):
@@ -90,7 +100,7 @@ def processimage(base64_image):
         {
         "role": "user",
         "content": [
-            {"type": "text", "text": "Extract the squre footage of where to Bath room, rest room from the architectural diagram provided?. Only answer from the data source provided."},
+            {"type": "text", "text": f"{imgprompt}"},
             {
             "type": "image_url",
             "image_url": {
@@ -116,6 +126,7 @@ image_folder = "constimages"
 - Now read the 100's pages pdf and only process with bath room, rest room and kitchen
 - We wanted to filter only pages to process instead all pages to save cost.
 - The above process will also get rid of unwanted pages
+
 
 ```
 import fitz
