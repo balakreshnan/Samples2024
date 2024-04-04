@@ -192,4 +192,14 @@ GET https://api.dicebear.com/6.x/pixel-art/svg
 Done with output
 ```
 
+- more logprobs
+
+```
+import numpy as np
+
+for logprob in response.choices[0].logprobs.content:
+    #print(logprob)
+    print(f"Token or the word: {logprob.token} and the probability: {logprob.logprob} linear probability: {np.round(np.exp(logprob.logprob)*100,2)}%")
+```
+
 - we can change the prompt and be creative.
