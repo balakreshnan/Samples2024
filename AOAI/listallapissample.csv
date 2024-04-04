@@ -1,0 +1,231 @@
+﻿#,CATEGORY,API NAME,DESCRIPTION,SAMPLE URL
+1,API Directories,APIs.guru,OpenAPI API directory,https://api.apis.guru/v2/list.json
+2,API Directories,Public APIs,List of public APIs,https://api.publicapis.org/entries
+3,Art & Images,Art Institute of Chicago,Artwork from the museum,https://api.artic.edu/api/v1/artworks/search?q=cats
+4,Art & Images,COLOURlovers,Color trends,https://www.colourlovers.com/api/colors/new?format=json
+5,Art & Images,DiceBear,Generate random SVG avatars,https://api.dicebear.com/6.x/pixel-art/svg
+6,Art & Images,Dogs,Random dog images,https://dog.ceo/api/breeds/image/random
+7,Art & Images,HTTP Cats,Cat images for HTTP status codes,https://http.cat/401
+8,Art & Images,Lorem Picsum,Placeholder images,https://picsum.photos/200/300
+9,Art & Images,Metropolitan Museum of Art,Artwork from the museum,https://collectionapi.metmuseum.org/public/collection/v1/objects/100
+10,Art & Images,PHP-Noise,Noise background image generator,https://php-noise.com/noise.php?hex=FFFFFF&json
+11,Art & Images,Placebear,Pictures of bears for use as placeholders,https://placebear.com/200/300
+12,Art & Images,Placekitten,Placeholder kitten images,http://placekitten.com/200/300
+13,Art & Images,Random Dog,Random dog images,https://random.dog/woof.json
+14,Art & Images,RandomFox,Random pictures of foxes,https://randomfox.ca/floof/
+15,Art & Images,ReSmush,Image compression and optimization,http://api.resmush.it/ws.php?img=http://www.resmush.it/assets/images/jpg_example_original.jpg&qlty=95
+16,Art & Images,RoboHash,Generate unique images from text,https://robohash.org/onerobot.png
+17,Art & Images,Shibe,Random pictures of Shiba Inu dogs,https://shibe.online/api/shibes?count=10
+18,Art & Images,Vadivelu Status Codes,HTTP Codes with images,https://vadivelu.anoram.com/gif/200
+19,Calendar,Nager.Date,Public holidays,https://date.nager.at/api/v2/publicholidays/2020/US
+20,Calendar,UK Bank Holidays,UK bank holidays,https://www.gov.uk/bank-holidays.json
+21,Content,4chan,4chan's read-only API,https://a.4cdn.org/boards.json
+22,Content,Anime News Network,Anime/manga encyclopedia,https://cdn.animenewsnetwork.com/encyclopedia/api.xml?title=4658
+23,Content,Ceska Televize,Czech television program data,https://www.ceskatelevize.cz/services-old/programme/xml/schedule.php?user=test&date=30.01.2024&channel=ct24
+24,Content,Chronicling America,Historic US newspapers,https://chroniclingamerica.loc.gov/newspapers.json
+25,Content,Crossref,Scholarly metadata,https://api.crossref.org/journals?query=pharmacy+health
+26,Content,Final Space,Television show Final Space,https://finalspaceapi.com/api/v0/episode/
+27,Content,HackerNews,Hacker News API,https://hacker-news.firebaseio.com/v0/item/8863.json
+28,Content,Ice and Fire,Quantified and structured data from the universe of Ice and Fire,https://anapioficeandfire.com/api/characters/581
+29,Content,Jikan,Unofficial MyAnimeList API,https://api.jikan.moe/v4/anime?q=naruto
+30,Content,Listly,Top 10 lists,https://list.ly/api/v4/meta?url=http://google.com
+31,Content,MCU-Countdown,When is the next MCU film?,https://www.whenisthenextmcufilm.com/api
+32,Content,Mediawiki,Wikipedia page content and revisions,https://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=Pet_door&rvprop=content&format=json
+33,Content,Open Library,Books and book-related data,https://openlibrary.org/search.json?q=the+lord+of+the+rings
+34,Content,Reddit,Public content from Reddit,https://www.reddit.com/r/Wallstreetbets/top.json?limit=10&t=year
+35,Content,Reddit Stocks,Top stocks from Wallstreetbets,https://tradestie.com/api/v1/apps/reddit
+36,Content,Rick and Morty,Rick and Morty characters,https://rickandmortyapi.com/api/character/108
+37,Content,STAPI,Star Trek information,https://stapi.co/api/v2/rest/spacecraft/search
+38,Content,SWAPI,Star Wars information,https://swapi.dev/api/planets/3/?format=json
+39,Content,The Rosary,Rosary prayers,https://the-rosary-api.vercel.app/v1/today
+40,Content,TVMaze,TV show information,http://api.tvmaze.com/search/shows?q=golden girls
+41,Content,Wolne Lektury,Search ebooks from wolnelektury.pl,https://wolnelektury.pl/api/authors/edgar-allan-poe/
+42,Content,WordPress,Posts from any public WordPress site,https://techcrunch.com/wp-json/wp/v2/posts?per_page=100&context=embed
+43,Crypto & Finance,Binance,24 hr crypto data,https://api4.binance.com/api/v3/ticker/24hr
+44,Crypto & Finance,CoinBase,Currency codes and names,https://api.coinbase.com/v2/currencies
+45,Crypto & Finance,CoinCap,Real time cryptocurrency prices,https://api.coincap.io/v2/assets
+46,Crypto & Finance,CoinDesk,Bitcoin price index,https://api.coindesk.com/v1/bpi/currentprice.json
+47,Crypto & Finance,CoinGecko,Cryptocurrency market data,https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd
+48,Crypto & Finance,CoinLore,Cryptocurrency market data,https://api.coinlore.net/api/tickers/
+49,Crypto & Finance,CoinMap,Crypto ATMs,https://coinmap.org/api/v1/venues/
+50,Crypto & Finance,Coinpaprika,Cryptocurrency data,https://api.coinpaprika.com/v1/coins/btc-bitcoin
+51,Crypto & Finance,Currency Rates,Currency exchange rates,https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/eur.json
+52,Crypto & Finance,DEX Screener,Blockchain screener,https://api.dexscreener.com/latest/dex/search?q=WBNB%20USDC
+53,Crypto & Finance,ExchangeRate-API,Exchange rates,https://open.er-api.com/v6/latest/USD
+54,Crypto & Finance,GeckoTerminal,Crypto data,https://api.geckoterminal.com/api/v2/networks
+55,Crypto & Finance,Gemini,Cryptocurrency market data,https://api.gemini.com/v2/ticker/btcusd
+56,Crypto & Finance,Kraken,Crypto data,https://api.kraken.com/0/public/Trades?pair=ltcusd
+57,Crypto & Finance,KuCoin,Crypto data,https://api.kucoin.com/api/v1/market/stats?symbol=BTC-USDT
+58,Crypto & Finance,NBP Web,Currency exchange rates and gold prices,http://api.nbp.pl/api/cenyzlota/last/30/?format=json
+59,Crypto & Finance,Nexchange,Cryptocurrency market data,https://api.n.exchange/en/api/v1/pair/
+60,Crypto & Finance,OKX,Cryptocurrency market data,https://www.okx.com/api/v5/market/tickers?instType=SPOT
+61,Crypto & Finance,Razorpay IFSC,Indian Financial Systems Codes,https://ifsc.razorpay.com/YESB0DNB002
+62,Crypto & Finance,WazirX,Crypto data,https://api.wazirx.com/sapi/v1/tickers/24hr
+63,Developer Tools,Agify,Predict age based on a name,https://api.agify.io?name=bella
+64,Developer Tools,APIC Agent,"Detect browser, OS, and device from user agent","https://api.apicagent.com/?ua=Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_5)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/89.0.4389.114%20Safari/537.36"
+65,Developer Tools,Arul's Public APIs,Get IP address,https://api.aruljohn.com/ip/json
+66,Developer Tools,Cloudflare Trace,"Get IP address, user agent, etc",https://1.1.1.1/cdn-cgi/trace
+67,Developer Tools,Digital Ocean Status,DigitalOcean status,https://status.digitalocean.com/api/v2/summary.json
+68,Developer Tools,FilterLists,Lists of filters used by ad blockers,http://filterlists.com/api/directory/lists
+69,Developer Tools,Genderize.io,Predict gender based on a name,https://api.genderize.io?name=scott
+70,Developer Tools,Google Favicons,Google's unofficial favicon fetcher,https://www.google.com/s2/favicons?domain=quora.com&sz=32
+71,Developer Tools,goQR,Create and read QR codes,http://api.qrserver.com/v1/create-qr-code/?data=https://mixedanalytics.com&size=100x100
+72,Developer Tools,HTTPBin,Inspect user agent and headers,http://httpbin.org/get
+73,Developer Tools,Image-Charts,Chart images,"https://image-charts.com/chart?cht=p3&chs=700x100&chd=t:60,40&chl=Hello|World&chan&chf=ps0-0,lg,45,ffeb3b,0.2,f44336,1|ps0-1,lg,45,8bc34a,0.2,009688,1"
+74,Developer Tools,IP2Location,Get public IP address,https://api.ip2location.io/
+75,Developer Tools,IPify,Get public IP address,https://api.ipify.org?format=json
+76,Developer Tools,is.gd,URL shortener,https://is.gd/create.php?format=simple&url=www.example.com
+77,Developer Tools,Microlink,Retrieve metadata and screenshots from any URL,https://api.microlink.io/?url=https://github.com/microlinkhq
+78,Developer Tools,Nationalize.io,Predict nationality based on a name,https://api.nationalize.io?name=michael
+79,Developer Tools,QuickChart,Generate charts on-the-fly,"https://quickchart.io/chart?c={type:'bar',data:{labels:[2019,2020,2021,2022, 2023],datasets:[{label:'Users',data:[120,60,50,180,120]}]}}"
+80,Developer Tools,Serialif Color,Get colors in different formats,https://color.serialif.com/aquamarine
+81,Developer Tools,Un-Shorten,Unshorten shortened URLs,https://unshorten.me/json/goo.gl/IGL1lE
+82,Developer Tools,URLhaus,Receive and submit malware URLs,https://urlhaus-api.abuse.ch/v1/urls/recent/limit/3/
+83,Food & Drink,Cocktail Database,Cocktail recipes,https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
+84,Food & Drink,Open Brewery DB,Breweries,https://api.openbrewerydb.org/breweries
+85,Food & Drink,Open Food Facts,Data on food products,https://world.openfoodfacts.org/api/v0/product/737628064502.json
+86,Food & Drink,PunkAPI,Beer recipes,https://api.punkapi.com/v2/beers
+87,Food & Drink,Whisky Hunter,Whisky auctions,https://whiskyhunter.net/api/auctions_data/?format=json
+88,Fun & Games,AmiiboAPI,Nintendo Amiibo database,https://www.amiiboapi.com/api/amiibo/?name=mario
+89,Fun & Games,Barter,"Digital game libraries, wishlists and tradables",https://barter.vg/browse/cards/json
+90,Fun & Games,Board Game Geek,Board games,https://boardgamegeek.com/xmlapi/search?search=frika
+91,Fun & Games,Bored,Activity suggestions,https://www.boredapi.com/api/activity
+92,Fun & Games,CheapShark,Price comparison for digital games,https://www.cheapshark.com/api/1.0/deals?upperPrice=15
+93,Fun & Games,Chuck Norris Jokes,Chuck Norris facts,https://api.chucknorris.io/jokes/random
+94,Fun & Games,D&D 5th Edition,Official 5th Edition of Dungeons & Dragons,https://www.dnd5eapi.co/api/features
+95,Fun & Games,Deck of Cards,Simulate a deck of cards,https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1
+96,Fun & Games,Evil Insult Generator,Generate insults,https://evilinsult.com/generate_insult.php?lang=en&type=json
+97,Fun & Games,FreeToGame,Free-to-play games,https://www.freetogame.com/api/games?platform=pc
+98,Fun & Games,Gamerpower,Free games and giveaways,https://www.gamerpower.com/api/giveaways?platform=steam&type=loot&sort-by=popularity
+99,Fun & Games,Hyrule Compendium,The Legend of Zelda: BOTW,https://botw-compendium.herokuapp.com/api/v2/entry/white-maned_lynel
+100,Fun & Games,icanhazdadjoke,Dad jokes,https://icanhazdadjoke.com/
+101,Fun & Games,Imgflip,Popular memes,https://api.imgflip.com/get_memes
+102,Fun & Games,isEven,Check if a number is even,https://api.isevenapi.xyz/api/iseven/12/
+103,Fun & Games,JokeAPI,Jokes,https://v2.jokeapi.dev/joke/Any?safe-mode
+104,Fun & Games,Magic: The Gathering,Cards and sets from MTG,https://api.magicthegathering.io/v1/sets
+105,Fun & Games,Official Joke,Jokes,https://official-joke-api.appspot.com/random_joke
+106,Fun & Games,Open Trivia DB,Trivia questions,https://opentdb.com/api.php?amount=10&category=17&difficulty=easy
+107,Fun & Games,PokéAPI,Pokémon data,https://pokeapi.co/api/v2/pokemon/ditto
+108,Fun & Games,Pokémon TCG,Pokémon card data,https://api.pokemontcg.io/v2/cards/xy1-1
+109,Fun & Games,PunAPI,Puns,https://www.punapi.rest/api/pun
+110,Fun & Games,RuneScape,Runescape data,https://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?category=9&alpha=c&page=1
+111,Fun & Games,Scryfall,Magic: The Gathering card data,https://api.scryfall.com/cards/search?order=cmc&q=c:red%20pow=3
+112,Fun & Games,TCGdex,Pokémon card data,https://api.tcgdex.net/v2/en/sets
+113,Fun & Games,XIVAPI,Final Fantasy XIV,https://xivapi.com/Action/127
+114,Fun & Games,xkcd,xkcd comics,http://xkcd.com/info.0.json
+115,Fun & Games,Yes or No?,Randomly generate a yes or no image,https://yesno.wtf/api
+116,Geo,Adresse,French addresses and geocoding,https://api-adresse.data.gouv.fr/search/?q=8+bd+du+port
+117,Geo,Country.is,Lookup country by IP address,https://api.country.is/9.9.9.9
+118,Geo,Geocode,Forward/reverse geocoding,"https://geocode.xyz/51.50354,-0.12768?geoit=json"
+119,Geo,GeoJS,Geolocation by IP address,https://get.geojs.io/v1/ip/geo.json
+120,Geo,geoPlugin,Currency conversion and geolocation data,http://www.geoplugin.net/php.gp
+121,Geo,GetTheData,UK geo coordinates conversion,https://api.getthedata.com/bng2latlong/529090/179645
+122,Geo,HelloSalut,"Translate ""hello"" by IP address",http://stefanbohacek.com/hellosalut/?mode=auto
+123,Geo,Hong Kong GeoData Store,Hong Kong geo data,https://geodata.gov.hk/gs/api/v1.0.0/locationSearch?q=museums
+124,Geo,ipapi,Geolocation by IP address,https://ipapi.co/json/
+125,Geo,IPGeo,Geolocation by IP address,https://api.techniknews.net/ipgeo/
+126,Geo,Nominatum,Locations and addresses,https://nominatim.openstreetmap.org/search.php?city=taipei&format=jsonv2
+127,Geo,Open Topo Data,Determine elevation for lat/long,"https://api.opentopodata.org/v1/srtm90m?locations=-43.5,172.5|27.6,1.98&interpolation=cubic"
+128,Geo,Postcodes,UK geo data by postcode,https://api.postcodes.io/postcodes/OX49%205NU
+129,Geo,ViaCEP,Brazil's postal address codes (CEPs),https://viacep.com.br/ws/01001000/json/
+130,Geo,Zippopotamus,Zip code information for 60 countries,https://api.zippopotam.us/us/90210
+131,Geo,Ziptastic,US geo data by zipcode,https://ziptasticapi.com/90210
+132,Government,Banco Central Do Brasil,Brazil Central Bank data,https://api.bcb.gov.br/dados/serie/bcdata.sgs.20716/dados/ultimos/10?formato=json
+133,Government,Belgian Open Data Initiative,Belgian government open data,https://social.brussels/rest/sector/5/organisations
+134,Government,Brasil,Brazil public data,https://brasilapi.com.br/api/feriados/v1/2024
+135,Government,CiviX,Law and bylaw content of British Columbia,https://www.bclaws.gov.bc.ca/civix/search/complete/fullsearch?q=water&s=0&e=20&nFrag=5&lFrag=100
+136,Government,Colorado Information Marketplace,Colorado state open data,https://data.colorado.gov/resource/4ykn-tg5h.json
+137,Government,Data USA,US public data,https://datausa.io/api/data?drilldowns=Nation&measures=Population
+138,Government,Data.gov,U.S. government open data,https://data.wa.gov/api/views/f6w7-q2d2/rows.json?accessType=DOWNLOAD
+139,Government,Data.gov.au,Australian government open data,https://www.data.act.gov.au/api/views/s4g9-ndv2/rows.json?accessType=DOWNLOAD
+140,Government,Dawum,German election polls,https://api.dawum.de/
+141,Government,European Commission Taxation and Customs,Europan Comission taxes,https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/122268496
+142,Government,FBI Wanted,FBI Wanted data,https://api.fbi.gov/wanted/v1/list
+143,Government,Federal Register,Daily journal of the US government,https://www.federalregister.gov/api/v1/documents/2023-05167?publication_date=2023-03-14
+144,Government,Food Standards Agency,UK restaurant hygiene ratings,https://ratings.food.gov.uk/OpenDataFiles/FHRS529en-GB.json
+145,Government,NYC Open Data,New York City open data,https://data.cityofnewyork.us/resource/erm2-nwe9.json?unique_key=57056073
+146,Government,Open Data DC,Washington DC open data,"https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Transportation_TrafficVolume_WebMercator/MapServer/171/query?where=1%3D1&outFields=ROUTEID,FROMMEASURE,TOMEASURE,FROMDATE,TODATE&outSR=4326&f=json"
+147,Government,"Open Government, Canada",Canadian government open data,https://donnees-data.tpsgc-pwgsc.gc.ca/br1/delaipaiement-promptpayment/delaipaiement-promptpayment.json
+148,Government,Represent Civic Information,Canada's elected officials and electoral districts,https://represent.opennorth.ca/representatives/?first_name=Jack
+149,Government,USAspending,U.S. federal government spending data,https://api.usaspending.gov/api/v2/references/toptier_agencies/
+150,Government,USPTO,US Patent and Trademark Office,https://assignment-api.uspto.gov/trademark/basicSearch?query=Google&filter_year=2022
+151,Government,World Bank,World Bank open data,http://api.worldbank.org/v2/region?format=json
+152,Health,HealthCare.gov,US health insurance data,https://www.healthcare.gov/api/index.json
+153,Health,Makeup,Makeup brands and product info,http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline
+154,Health,NPPES,US health care providers,https://npiregistry.cms.hhs.gov/api/?version=2.1&city=baltimore
+155,Health,openFDA,Food & Drug Administration data (US),https://api.fda.gov/food/enforcement.json?limit=10
+156,Inspiration,Advice Slip,Generate random advice,https://api.adviceslip.com/advice/search/love
+157,Inspiration,Affirmations,Generate affirmations,https://www.affirmations.dev/
+158,Inspiration,Biriyana As a Service,Biriyani images,https://biriyani.anoram.com/get
+159,Inspiration,Breaking Bad Quotes,Retrieve some quotes of Breaking Bad,https://api.breakingbadquotes.xyz/v1/quotes
+160,Inspiration,Dictum,Inspiring expressions,https://api.fisenko.net/v1/quotes/en?query=string&offset=0&limit=0
+161,Inspiration,Game of Thrones Quotes,Retrieve some quotes of Game of Thrones,https://api.gameofthronesquotes.xyz/v1/random
+162,Inspiration,Kanye,Kanye quotes,https://api.kanye.rest/
+163,Inspiration,Quotable,Random quotes,https://api.quotable.io/quotes/random
+164,Inspiration,Quote Garden,Database of 75000 quotes,https://quote-garden.onrender.com/api/v3/quotes
+165,Inspiration,Quotes on Design,Quotes about design,https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand
+166,Inspiration,Ron Swanson Quotes,Ron Swanson quotes API,https://ron-swanson-quotes.herokuapp.com/v2/quotes
+167,Jobs,Jobicy,List of remote jobs,https://jobicy.com/api/v2/remote-jobs?count=20&geo=usa&industry=marketing&tag=seo
+168,Language,Chinese Character Web,Information about Chinese characters,http://ccdb.hemiola.com/characters/radicals/85?count
+169,Language,Chinese Text Project,Digital library for pre-modern Chinese texts,https://api.ctext.org/getdictionaryheadwords
+170,Language,Datamuse,Query words matching conditions,https://api.datamuse.com/words?ml=ringing+in+the+ears
+171,Language,Free Dictionary,Word definitions and phonetics,https://api.dictionaryapi.dev/api/v2/entries/en/digital
+172,Language,PurgoMalum,Check content for profanity,https://www.purgomalum.com/service/json?text=this%20is%20some%20test%20input
+173,Music,Binary Jazz,Fetch a random genre,https://binaryjazz.us/wp-json/genrenator/v1/genre/5
+174,Music,iTunes Search,iTunes content,https://itunes.apple.com/search?term=radiohead
+175,Music,MusicBrainz,Music data,http://musicbrainz.org/ws/2/artist/5b11f4ce-a62d-471e-81fc-a69a8278c7da?fmt=json
+176,Music,Openwhyd,Playlists from various streaming platforms,https://openwhyd.org/hot/electro?format=json
+177,Open Data,Archive.org,Large public digital archive,https://archive.org/metadata/TheAdventuresOfTomSawyer_201303
+178,Open Data,Carbon Intensity,Carbon intensity of the electricity system in Great Britain,https://api.carbonintensity.org.uk/intensity/date
+179,Open Data,Data.Police.UK,UK crime & police data,https://data.police.uk/api/crimes-street/all-crime?lat=52.629729&lng=-1.131592&date=2023-01
+180,Open Data,Fipe,Brazilian vehicles and prices,https://parallelum.com.br/fipe/api/v1/carros/marcas/59/modelos
+181,Open Data,House Stock Watcher,US Congress members' stock transactions,https://house-stock-watcher-data.s3-us-west-2.amazonaws.com/data/all_transactions.json
+182,Open Data,Iceland companies,Search the icelandic company registry,https://apis.is/company?name=icelandair
+183,Open Data,Open Library,Information about books,http://openlibrary.org/api/volumes/brief/isbn/9780525440987.json
+184,Open Data,PM2.5,PM2.5 environmental data monitoring,https://pm25.lass-net.org/API-1.0.0/project/airbox/latest/
+185,Open Data,Universities List,Universities,http://universities.hipolabs.com/search?country=United+Kingdom
+186,Open Data,Vehicles,National Highway Traffic Safety Administration's catalog of vehicles specs,https://vpic.nhtsa.dot.gov/api/vehicles/GetVehicleTypesForMake/merc?format=json
+187,Open Data,Wayback Machine,Internet archive availability,https://archive.org/wayback/available?url=google.com
+188,Open Data,Wikipedia,Pageview stats,https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/Tiger_King/daily/20210901/20210930
+189,Science,Arcsecond,Worldwide astronomy data,https://api.arcsecond.io/activities/
+190,Science,arXiv,Research-sharing platform,http://export.arxiv.org/api/query?search_query=all:electron
+191,Science,Asterank,"Asteroids, minor planets, and other objects",http://www.asterank.com/api/skymorph/search?target=J99TS7A
+192,Science,Cat-Facts,Daily cat facts,https://cat-fact.herokuapp.com/facts/random
+193,Science,CelesTrak,General perturbations orbital data,https://celestrak.org/NORAD/elements/gp.php?INTDES=2023-015&FORMAT=JSON-PRETTY
+194,Science,GBIF,Global Biodiversity Information Facility,"https://api.gbif.org/v1/occurrence/search?year=1800,1899"
+195,Science,iDigBio,Digitized data for millions of biological specimens,"https://search.idigbio.org/v2/search/records/?rq={""data.dwc:dynamicProperties"":""nsf_tcn""}&limit=1"
+196,Science,Inspirehep,Scholarly information about high energy physics,https://inspirehep.net/api/literature/451647
+197,Science,ITIS,Integrated Taxonomic Information System,https://www.itis.gov/ITISWebService/services/ITISService/searchByCommonName?srchKey=ferret-badger
+198,Science,NASA,National Aeronautics and Space Administration,https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=DEMO_KEY
+199,Science,Newton,Advanced math,https://newton.now.sh/api/v2/factor/x^2-1
+200,Science,Numbers,Facts about numbers,http://numbersapi.com/random/math
+201,Science,Open Notify,ISS location and people in space,http://api.open-notify.org/astros.json
+202,Science,Spaceflight News,Spaceflight related news,https://api.spaceflightnewsapi.net/v3/articles
+203,Science,SpaceX,Launch and rocket data,https://api.spacexdata.com/v5/launches/latest
+204,Science,SunriseSunset,Sunrise and sunset times,https://api.sunrisesunset.io/json?lat=38.907192&lng=-77.036873&timezone=UTC&date=today
+205,Science,TheSpaceDevs,"Rocket launches, space events and crewed spaceflight",https://ll.thespacedevs.com/2.2.0/agencies/?limit=10
+206,Science,USGS Earthquake Catalog,Latest earthquakes,https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-03-01&endtime=2023-03-02&minmagnitude=5
+207,Sports,Balldontlie,"NBA players, teams, games, stats",https://www.balldontlie.io/api/v1/teams
+208,Sports,CityBikes,Bike sharing networks,http://api.citybik.es/v2/networks
+209,Sports,Ergast F1,Motor racing data,http://ergast.com/api/f1/drivers.json
+210,Sports,Football-Data,Football (soccer) competitions and data,http://api.football-data.org/v4/competitions/
+211,Sports,nhlapi,NHL data,https://api-web.nhle.com/v1/standings-season
+212,Test Data,Bacon Ipsum,Generate fake data for testing,https://baconipsum.com/api/?type=meat-and-filler
+213,Test Data,Faker,Generate fake data,https://fakerapi.it/api/v1/credit_cards?_quantity=2
+214,Test Data,JSONPlaceholder,Fake REST API for testing,https://jsonplaceholder.typicode.com/posts/1
+215,Test Data,Loripsum,Generate fake placeholder text,https://loripsum.net/api/10/short/headers
+216,Test Data,RandomUser,Fake user data generator,https://randomuser.me/api/
+217,Test Data,Reqres,Test against a real API,https://reqres.in/api/users?page=1
+218,Test Data,REST,Rest API for testing,https://api.restful-api.dev/objects
+219,Test Data,Softwium,Dummy JSON data for a variety of categories,https://softwium.com/api/books
+220,Test Data,UUID Generator,Generate UUIDs and GUIDs,https://www.uuidtools.com/api/generate/v1/count/3
+221,Transportation,Derhuerst,Public transport for Berlin & Brandenburg,https://v6.vbb.transport.rest/locations?query=berlin
+222,Transportation,Iceland flights,lnternational flights at Keflavik Airport,https://apis.is/flight?language=en&type=departures
+223,Transportation,iRail,Belgian railways,https://api.irail.be/vehicle/?id=BE.NMBS.IC1832&format=json&lang=en&alerts=false
+224,Transportation,MBTA,Public transport for Boston,https://api-v3.mbta.com/route_patterns?filter[route]=CR-Providence&include=representative_trip&fields[trip]=headsign
+225,Transportation,Metro Lisboa,Subway line status,https://app.metrolisboa.pt/status/getLinhas.php
+226,Weather,7Timer!,Weather forecasts for astronomy,http://www.7timer.info/bin/api.pl?lon=113.17&lat=23.09&product=astro&output=json
+227,Weather,Aviation Weather Center,Aviation Digital Data Service (ADDS) data,https://aviationweather.gov/api/data/airport?ids=KMCI
+228,Weather,openSenseMap,Personal senseBox (weather station) data,https://api.opensensemap.org/boxes?model=homeWifi
+229,Weather,SG Weather,Realtime weather readings for Singapore,https://api.data.gov.sg/v1/environment/air-temperature
+230,Weather,wttr,Console-oriented weather forecast service,wttr.in/London?format=3
