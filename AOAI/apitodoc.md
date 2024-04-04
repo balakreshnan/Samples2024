@@ -123,9 +123,9 @@ Usage
 
 To retrieve a list of APIs, send a GET request to the sample URL:
 
-```http
+````http
 GET https://api.apis.guru/v2/list.json
-```
+````
 
 2. Public APIs
 
@@ -138,9 +138,9 @@ Usage
 
 To get a list of public APIs, send a GET request to the sample URL:
 
-```http
+````http
 GET https://api.publicapis.org/entries
-```
+````
 
 Art & Images
 
@@ -155,9 +155,9 @@ Usage
 
 To search for artworks related to "cats", send a GET request to the sample URL:
 
-```http
+````http
 GET https://api.artic.edu/api/v1/artworks/search?q=cats
-```
+````
 
 4. COLOURlovers
 
@@ -170,9 +170,9 @@ Usage
 
 To retrieve the latest color trends in JSON format, send a GET request to the sample URL:
 
-```http
+````http
 GET https://www.colourlovers.com/api/colors/new?format=json
-```
+````
 
 1. DiceBear
 
@@ -185,10 +185,11 @@ Usage
 
 To generate a random SVG avatar in the pixel-art style, send a GET request to the sample URL:
 
-```http
+````http
 GET https://api.dicebear.com/6.x/pixel-art/svg
-```
+````
 
+Done with output
 ```
 
 - we can change the prompt and be creative.
