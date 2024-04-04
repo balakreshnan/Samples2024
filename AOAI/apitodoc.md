@@ -106,20 +106,20 @@ print(response.choices[0].message.content)
 - Response
 
 ```
-# API Documentation
+API Documentation
 
 Below is the API documentation for various data sources provided in Markdown format.
 
-## API Directories
+API Directories
 
-### 1. APIs.guru
+1. APIs.guru
 
 - **API Name:** APIs.guru
 - **Category:** API Directories
 - **Description:** OpenAPI API directory
 - **Sample URL:** `https://api.apis.guru/v2/list.json`
 
-#### Usage
+Usage
 
 To retrieve a list of APIs, send a GET request to the sample URL:
 
@@ -127,14 +127,14 @@ To retrieve a list of APIs, send a GET request to the sample URL:
 GET https://api.apis.guru/v2/list.json
 ```
 
-### 2. Public APIs
+2. Public APIs
 
 - **API Name:** Public APIs
 - **Category:** API Directories
 - **Description:** List of public APIs
 - **Sample URL:** `https://api.publicapis.org/entries`
 
-#### Usage
+Usage
 
 To get a list of public APIs, send a GET request to the sample URL:
 
@@ -142,16 +142,16 @@ To get a list of public APIs, send a GET request to the sample URL:
 GET https://api.publicapis.org/entries
 ```
 
-## Art & Images
+Art & Images
 
-### 3. Art Institute of Chicago
+3. Art Institute of Chicago
 
 - **API Name:** Art Institute of Chicago
 - **Category:** Art & Images
 - **Description:** Artwork from the museum
 - **Sample URL:** `https://api.artic.edu/api/v1/artworks/search?q=cats`
 
-#### Usage
+Usage
 
 To search for artworks related to "cats", send a GET request to the sample URL:
 
@@ -159,14 +159,14 @@ To search for artworks related to "cats", send a GET request to the sample URL:
 GET https://api.artic.edu/api/v1/artworks/search?q=cats
 ```
 
-### 4. COLOURlovers
+4. COLOURlovers
 
 - **API Name:** COLOURlovers
 - **Category:** Art & Images
 - **Description:** Color trends
 - **Sample URL:** `https://www.colourlovers.com/api/colors/new?format=json`
 
-#### Usage
+Usage
 
 To retrieve the latest color trends in JSON format, send a GET request to the sample URL:
 
@@ -174,14 +174,14 @@ To retrieve the latest color trends in JSON format, send a GET request to the sa
 GET https://www.colourlovers.com/api/colors/new?format=json
 ```
 
-### 5. DiceBear
+1. DiceBear
 
 - **API Name:** DiceBear
 - **Category:** Art & Images
 - **Description:** Generate random SVG avatars
 - **Sample URL:** `https://api.dicebear.com/6.x/pixel-art/svg`
 
-#### Usage
+Usage
 
 To generate a random SVG avatar in the pixel-art style, send a GET request to the sample URL:
 
@@ -189,7 +189,6 @@ To generate a random SVG avatar in the pixel-art style, send a GET request to th
 GET https://api.dicebear.com/6.x/pixel-art/svg
 ```
 
-### 
 ```
 
 - we can change the prompt and be creative.
