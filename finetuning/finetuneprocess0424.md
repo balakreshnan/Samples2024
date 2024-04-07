@@ -2,6 +2,10 @@
 
 ## Introduction
 
+- Introuction to create generative ai applications with fine tuning
+
+[![Watch the video](https://img.youtube.com/vi/JgQBgPpxAsI/default.jpg)](https://youtu.be/JgQBgPpxAsI)
+
 - Why should we do fine tuning?
 - What is the process of fine tuning?
 - How would i take a decision to fine tune?
@@ -47,6 +51,28 @@
 - It is absolutly necessary to manage the fine tuning life cycle management.
 - Security and privacy is also important in the fine tuning process.
 - Be transparent in the process and results.
+  
+### Process
+
+Certainly! The image outlines a flowchart for the fine tuning process in machine learning model development. Here's a step-by-step explanation:
+
+- Start: Begin the process.
+- Use Case: Identify the specific use case for which the model is being developed. This defines the purpose and scope of the model.
+- Task: Determine the specific task the model needs to perform. This could be text generation, image/video creation, image/audio/video summarization, etc.
+- RAG (Retrieval-Augmented Generation) Decision:
+    - If "Yes", the model uses vector embeddings from a document store to enhance the generation process.
+    - If "No", skip to the next step without using vector embeddings.
+- Model Selection: Choose a machine learning model. The choice can depend on the size of the model required (small or large).
+- Fine Tune Train: Fine-tune the selected model on a specific dataset. This involves adjusting the model's parameters so it can better perform the task at hand.
+- Validation/Test/Evaluation: Validate the fine-tuned model through testing and evaluation to ensure it meets the performance criteria.
+- Responsible AI Eval: Evaluate the model to ensure it aligns with responsible AI principles, which could include fairness, privacy, security, and robustness.
+- Human Eval: Have human evaluators assess the model's performance to ensure it is making sense from a human perspective.
+- Model Test Results/Leaderboard: Record the model's test results and potentially compare it with other models on a leaderboard to see how well it performs relative to others.
+- Deployment/LLMops or Model Registry:
+    - If the model is "Accepted" (i.e., it performs well and meets all criteria), it moves to the deployment phase where it is made available for use, or it is added to a model registry for future reference.
+    - If the model is not accepted, it may require revisiting earlier steps for further refinement.
+
+Throughout this process, there may be additional steps and considerations, such as using GPU compute for training/testing and employing various frameworks. It's also important to have a dataset that the model can be trained and validated on, which involves finding data, creating datasets, and validating them, potentially with human evaluation to ensure quality. Additionally, once the model is ready, it should be made accessible to the intended consumer.
 
 ### Deeper look at teams and their skills needed
 
