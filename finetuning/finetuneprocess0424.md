@@ -6,6 +6,12 @@
 
 [![Watch the video](https://img.youtube.com/vi/JgQBgPpxAsI/default.jpg)](https://youtu.be/JgQBgPpxAsI)
 
+- Watch here
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=JgQBgPpxAsI" target="_blank">
+ <img src="http://img.youtube.com/vi/JgQBgPpxAsI/mqdefault.jpg" alt="Watch the video" width="400" height="280" border="10" />
+</a>
+
 - Why should we do fine tuning?
 - What is the process of fine tuning?
 - How would i take a decision to fine tune?
