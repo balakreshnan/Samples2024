@@ -9,7 +9,7 @@
 - Watch here
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=JgQBgPpxAsI" target="_blank">
- <img src="http://img.youtube.com/vi/JgQBgPpxAsI/mqdefault.jpg" alt="Watch the video" width="400" height="280" border="10" />
+ <img src="http://img.youtube.com/vi/JgQBgPpxAsI/mqdefault.jpg" alt="Watch the video" width="500" height="280" border="10" />
 </a>
 
 - Why should we do fine tuning?
