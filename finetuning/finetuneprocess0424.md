@@ -31,18 +31,18 @@
 - Collecting data and labeling data is a time consuming process.
 - Human in loop is needed to validate the results.
 - Human also have to avoid bias in the data.
-- Training infrastructure like GPU compute is hard to get and expensive
+- Training infrastructure like GPU compute is hard to get and expensive.
 - Optimized fine tuning for scale will be another challenge.
 - Data collection and creation can be automated but needs lots of validation by human.
 - Fine tuning is done based on use case and task inside.
-- We can also use small and large lanugage models which has multiple tasks inbuilt to fine tune.
+- We can also use small and large language models which has multiple tasks inbuilt to fine tune.
 - Use data cache to save training and validation, test data sets.
 - Make sure there is human evaluation in the loop to data set creation results before it goes to training.
 - For fine tuning select the model based on tasks and how effective to use.
 - Try with small language model first and then go to large language model.
 - After fine tuning, evaluate the model with test data set.
 - Also evaluate the model for responsible ai and bias.
-- For training there are multiple way to test LoRa,QloRa, DoRa.
+- For training there are multiple way to test LoRa, QloRa, DoRa.
 - Also pick use GPU Nvidia libraries like NCCL to speed up training.
 - This is speed up Pytorch, Tensorflow training.
 - Once the results are good, create a leaderboard and update the information.
@@ -50,8 +50,8 @@
 - Save the model to registry to use in production.
 - Saving in registry also allows to share with other in the same organization.
 - The model consumers might be user or applications built on top of it.
-- It is absolutly necessary to manage the fine tuning life cycle management.
-- Security and privacy is also important in the fine tuning process.
+- It is absolutely necessary to manage the fine-tuning life cycle management.
+- Security and privacy is also important in the fine-tuning process.
 - Be transparent in the process and results.
   
 ### Process
