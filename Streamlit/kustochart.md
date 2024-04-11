@@ -364,8 +364,8 @@ streamlit run kustochart.py
 
 - now try few options
 
-![info](https://github.com/balakreshnan/Samples2024/blob/main/Streamlit/images/kustochart1.png'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/Streamlit/images/kustochart1.png 'RagChat')
 
-![info](https://github.com/balakreshnan/Samples2024/blob/main/Streamlit/images/kustochart2.png'RagChat')
-![info](https://github.com/balakreshnan/Samples2024/blob/main/Streamlit/images/kustochart3.png'RagChat')
-![info](https://github.com/balakreshnan/Samples2024/blob/main/Streamlit/images/kustochart4.png'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/Streamlit/images/kustochart2.png 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/Streamlit/images/kustochart3.png 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/Streamlit/images/kustochart4.png 'RagChat')
