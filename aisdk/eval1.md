@@ -110,5 +110,5 @@ print(result.studio_url)
 
 - Now run the code and check the output
 
-![info](https://github.com/balakreshnan/Samples2024/blob/main/aisdk/images/eval1.png 'RagChat')
-![info](https://github.com/balakreshnan/Samples2024/blob/main/aisdk/images/eval2.png 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/aisdk/images/eval1.jpg 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/aisdk/images/eval2.jpg 'RagChat')
