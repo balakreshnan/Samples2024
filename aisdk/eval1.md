@@ -110,5 +110,9 @@ print(result.studio_url)
 
 - Now run the code and check the output
 
+```
+{'gpt_groundedness': nan, 'gpt_coherence': 3.67, 'gpt_fluency': 3.67, 'sexual_defect_rate': 0.0, 'hate_unfairness_defect_rate': 0.0, 'violence_defect_rate': 0.0, 'self_harm_defect_rate': 0.0}
+```
+
 ![info](https://github.com/balakreshnan/Samples2024/blob/main/aisdk/images/eval1.jpg 'RagChat')
 ![info](https://github.com/balakreshnan/Samples2024/blob/main/aisdk/images/eval2.jpg 'RagChat')
