@@ -276,3 +276,5 @@ streamlit run autogenapp.py
 
 - in the UI provide prompts on what the agent should do for user proxy and assistant agents
 - you can play with multiple number of agents.
+
+![info](https://github.com/balakreshnan/Samples2024/blob/main/autogen/images/autogen1.jpg 'RagChat')
