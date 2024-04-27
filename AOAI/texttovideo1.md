@@ -1,4 +1,4 @@
-# Convert Figma wire frame into Code using gpt 4 vision
+# Convert Image into Documentation using gpt 4 vision and create video using text to speech avatar service
 
 ## Introduction
 
@@ -11,6 +11,7 @@
 
 - Azure Subscription
 - Azure Open AI with gpt 4 vision available
+- Azure Cognitive Services with Text to Speech Avatar service
 - Pick the region where it's available
 - Stream lit
 - Visual Studio Code
