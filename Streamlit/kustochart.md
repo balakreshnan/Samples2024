@@ -1,4 +1,4 @@
-# Ability to create Kusto KQL output with D3 Charts
+# Ability to create Kusto KQL output with D3 JS Charts
 
 ## Introduction
 
