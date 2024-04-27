@@ -205,4 +205,4 @@ if __name__ == "__main__":
 - Run the streamlit app
 - try few prompts
 
-![info](https://github.com/balakreshnan/Samples2024/blob/main/AOAI/images/diag1.png 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AOAI/images/diag1.jpg 'RagChat')
