@@ -70,3 +70,35 @@ def encode_image(image_path):
 image_path = "dmvform1.jpg"
 ```
 
+- read the image and convert to base 64
+
+```
+base64_image = encode_image(image_path)
+```
+
+- now call the gpt4 api
+
+```
+response = client.chat.completions.create(
+  model="gpt-4o",
+  messages=[
+    {
+      "role": "user",
+      "content": [
+        {"type": "text", "text": "Create details documentation with step by step instruction for the image provided. Only respond from information in the image."},
+        {
+          "type": "image_url",
+          "image_url": {
+            "url" : f"data:image/jpeg;base64,{base64_image}",
+          },
+        },
+      ],
+    }
+  ],
+  max_tokens=500,
+  seed=42,
+  temperature=0
+)
+
+print(response.choices[0].message.content)
+```
