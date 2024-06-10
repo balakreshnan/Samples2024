@@ -222,3 +222,13 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+- output of the results
+
+```
+["{ 'model' : 'gpt-4o-g', 'metrics' : {'coherence.gpt_coherence': 4.166666666666667, 'relevance.gpt_relevance': 4.666666666666667},'studio_url' : 'https://ai.azure.com/build/evaluation/fea89d1e-3ecb-4ff3-a9cf-8ae7f7f59311?wsid=/subscriptions/80ef7369-572a-4abd-b09a-033367f44858/resourceGroups/rg-babalai/providers/Microsoft.MachineLearningServices/workspaces/babal-sweden' }", "{ 'model' : 'gpt-4o', 'metrics' : {'coherence.gpt_coherence': 4.166666666666667, 'relevance.gpt_relevance': 4.666666666666667},'studio_url' : 'https://ai.azure.com/build/evaluation/d35b4156-96c1-4668-a5ff-7a4bf3195799?wsid=/subscriptions/80ef7369-572a-4abd-b09a-033367f44858/resourceGroups/rg-babalai/providers/Microsoft.MachineLearningServices/workspaces/babal-sweden' }", "{ 'model' : 'gpt-4-turbo', 'metrics' : {'coherence.gpt_coherence': 4.2, 'relevance.gpt_relevance': 5.0},'studio_url' : 'https://ai.azure.com/build/evaluation/858315a4-8bf5-46fe-8b91-6b6521ecaa82?wsid=/subscriptions/80ef7369-572a-4abd-b09a-033367f44858/resourceGroups/rg-babalai/providers/Microsoft.MachineLearningServices/workspaces/babal-sweden' }"]
+```
+
+- output in AI Studio
+  
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AIStudio/images/multiplellmeval2.jpg 'RagChat')
