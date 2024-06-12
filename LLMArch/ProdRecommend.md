@@ -1,4 +1,4 @@
-# Product Recommendation using LLM - Azure Open AI GPT 4o models
+# Product Recommendation/Supply chain recommendation of vendors to fulfill orders using LLM - Azure Open AI GPT 4o models
 
 ## Pre-requisites
 
