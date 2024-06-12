@@ -189,3 +189,5 @@ Given the requirement above provided and also vendor product availability, can y
 ```
 
 ![info](https://github.com/balakreshnan/Samples2024/blob/main/LLMArch/images/supplychain1.jpg 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/LLMArch/images/supplychain2.jpg 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/LLMArch/images/supplychain3.jpg 'RagChat')
