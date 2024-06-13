@@ -17,6 +17,7 @@
 - Model was available in west us in us region at the time of writing the article
 - Need to first create a video index using florence model or computer vision model 4.0
 - Video used - https://youtu.be/yjtxPmHdl54
+- [![Watch the video](https://img.youtube.com/vi/yjtxPmHdl54/default.jpg)](https://youtu.be/yjtxPmHdl54)
 
 ## Steps
 
