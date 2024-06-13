@@ -94,10 +94,10 @@ _main:
   
 - here is the output
   
-![info](https://github.com/balakreshnan/Samples2024/blob/main/AIStudio/images/assembly2.jpg 'RagChat')
-![info](https://github.com/balakreshnan/Samples2024/blob/main/AIStudio/images/assembly3.jpg 'RagChat')
-![info](https://github.com/balakreshnan/Samples2024/blob/main/AIStudio/images/assembly4.jpg 'RagChat')
-![info](https://github.com/balakreshnan/Samples2024/blob/main/AIStudio/images/assembly5.jpg 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AOAI/images/assembly2.jpg 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AOAI/images/assembly3.jpg 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AOAI/images/assembly4.jpg 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AOAI/images/assembly5.jpg 'RagChat')
 
 
 ```
