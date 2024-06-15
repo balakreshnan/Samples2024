@@ -2,7 +2,7 @@
 
 ## Authors
 
-- Balamurgan Balakreshnan
+- Balamurugan Balakreshnan
 - Nayan Paul
 
 ## Introduction
