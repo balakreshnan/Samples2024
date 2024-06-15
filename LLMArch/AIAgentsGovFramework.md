@@ -7,15 +7,38 @@
 
 ## Introduction
 
-- AI Agents Governance Framework for CIO/CTO
-- AI Agents Center of Excellence
-- Subject to change as technology evolves
-- These are guidelines on what is needed to enable enterprise AI agents based application development
-- Use cases, requirements, and guidelines for application might change based on the industry and the organization
+AI Agent Governance Framework designed to ensure the effective and responsible management of AI agents within an organization. It encompasses core functional areas such as use case identification, applications deployment, routers management, metadata management, data storage, code repository and AIOps, memory/sessions management, and cost control. Supporting pillars include security, responsible AI, continuous monitoring and AIOps, alerting and push notifications, and involvement of organization personnel. The foundational layer emphasizes data and AI governance and lineage, ensuring transparency and accountability throughout the AI lifecycle. This framework aims to promote ethical, secure, and efficient AI operations within defined boundaries.
 
 ## AI Agents Governance Framework
 
+AI Agent Governance Framework, which is designed to ensure the effective and responsible management of AI agents within an organization. The framework encapsulates various critical components essential for AI governance:
+
+## Core Functional Areas
+
+- Use Case: Identification and management of AI use cases.
+- Applications: Deployment and oversight of AI applications.
+- Routers Management: Administration of routing protocols and systems.
+- Metadata Management: Handling and governance of metadata.
+- Data Store: Secure and efficient data storage solutions.
+- Code Repository & AIOps: Maintenance of code repositories and AI operations.
+- Memory/Sessions: Management of memory and session data.
+- Cost: Monitoring and controlling the cost associated with AI operations.
+
+## Supporting Pillars
+
+- Security: Ensuring the security and integrity of AI systems.
+- Responsible AI: Promoting ethical and responsible use of AI technologies.
+- Monitoring/AIOps: Continuous monitoring and operational management of AI systems.
+- Alerting, Push Notifications: Implementing alerting mechanisms and push notifications.
+- Organization Personnel: Involving relevant personnel in the governance process.
+
+## Foundational Layer
+
+Data and AI Governance and Lineage: Establishing governance policies and tracking the lineage of data and AI models to ensure transparency and accountability.
+
 ![info](https://github.com/balakreshnan/Samples2024/blob/main/LLMArch/images/AIAgentgocframework1.jpg 'RagChat')
+
+Overall, this framework provides a comprehensive structure to manage the lifecycle and governance of AI agents, ensuring they operate within defined ethical, operational, and financial boundaries.
 
 ## AI Agents Center of Excellence - Explained
 
