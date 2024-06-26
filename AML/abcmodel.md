@@ -100,7 +100,8 @@ df = pd.concat([df, certifications_df], axis=1)
 
 - encode project expertise
 
-``previous_projects_encoded = mlb.fit_transform(df['Previous Projects'])  
+```
+previous_projects_encoded = mlb.fit_transform(df['Previous Projects'])  
 previous_projects_df = pd.DataFrame(previous_projects_encoded, columns=mlb.classes_)  
   
 df = df.drop(columns=['Previous Projects'])  
