@@ -13,6 +13,7 @@
 - Azure subscription
 - Azure Machine learning workspace
 - Azure storage
+- Create data based on this code: https://github.com/balakreshnan/Samples2024/blob/main/AML/abcdataset.md
 
 ## Steps
 
