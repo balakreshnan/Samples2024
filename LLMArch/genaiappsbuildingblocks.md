@@ -1,4 +1,4 @@
-# Building blocks of Gen AI Applications in LLM/SML
+# Building blocks of Gen AI Applications in LLM/SLM
 
 ## Introduction
 
