@@ -1,4 +1,4 @@
-# Groq LLama 31 - Azure Machine Learning
+# Groq LLama 3.1 8B/80B- Azure Machine Learning
 
 ## Introduction
 
