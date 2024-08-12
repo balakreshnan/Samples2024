@@ -512,6 +512,8 @@ tokenizer.push_to_hub(hf_model_repo)
 
 ![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/phi3hfft-5.jpg 'Phi3 128K instruct Model')
 
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/phi3hfft-6.jpg 'Phi3 128K instruct Model')
+
 - display the repo 
 
 ```
@@ -625,6 +627,8 @@ import time
 metricas = dataset_chatml['test'].select(range(0,500)).map(calculate_rogue, batched=False)
 ```
 
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/phi3hfft-7.jpg 'Phi3 128K instruct Model')
+
 - print the metrics
 
 ```
@@ -635,3 +639,9 @@ print("Rouge 2 Mean: ",np.mean(metricas['rouge2']))
 print("Rouge L Mean: ",np.mean(metricas['rougeL']))
 print("Rouge Lsum Mean: ",np.mean(metricas['rougeLsum']))
 ```
+
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/phi3hfft-8.jpg 'Phi3 128K instruct Model')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/phi3hfft-9.jpg 'Phi3 128K instruct Model')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/phi3hfft-10.jpg 'Phi3 128K instruct Model')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/phi3hfft-11.jpg 'Phi3 128K instruct Model')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/phi3hfft-12.jpg 'Phi3 128K instruct Model')
