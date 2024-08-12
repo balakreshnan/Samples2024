@@ -210,28 +210,6 @@ def get_response(question, chat_history):
     violence_score = violence_eval(question="What is the capital of France?", answer="Paris.")
     print(violence_score)
 
-    #evalresult = evaluate(data=json_path,
-    #    evaluators={
-    #        "coherence": coherence_evaluator,
-    #        "relevance": relevance_evaluator,
-    #    },
-    #    evaluator_config={
-    #        "coherence": {
-    #            "answer": "${data.answer}",
-    #            "question": "${data.question}"
-    #        },
-    #        "relevance": {
-    #            "answer": "${data.answer}",
-    #            "context": "${data.context}",
-    #            "question": "${data.question}"
-    #        }
-    #    },
-    #    azure_ai_project=azure_ai_project,
-    #    #output_path="./evalresults/evaluation_results.json",
-    #    evaluation_name=evalutionname,
-    #)
-    # print(result)
-    #rs.append("{ 'model' : 'gpt-4o-g', 'metrics' : " + str(evalresult['metrics']) + "," + "'studio_url' : '" + str(evalresult['studio_url']) + "' }")
     #print(rs)
     # Convert the Python list (array) to a JSON string
     data = [{
