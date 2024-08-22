@@ -640,4 +640,4 @@ print("Rouge Lsum Mean: ",np.mean(metricas['rougeLsum']))
 ![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/phi35hfft-8.jpg 'Phi3 128K instruct Model')
 ![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/phi35hfft-9.jpg 'Phi3 128K instruct Model')
 
-- Now we have completed end to end fine tuning phi3 and tested the model.
+- Now we have completed end to end fine tuning phi3.5 and tested the model.
