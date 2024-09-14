@@ -44,7 +44,7 @@ Several manufacturers have already begun leveraging software-driven control syst
 
 The future of manufacturing lies in software-driven control systems. By reducing dependency on hardware, manufacturers can enhance automation, improve flexibility, and strengthen cybersecurity. As Industry 4.0 continues to shape the manufacturing landscape, software-driven systems will play a central role in driving operational efficiency, innovation, and resilience.
 
-## Architecture Diagram: Software-Driven Control System for Manufacturing
+## Architecture Software-Driven Control System for Manufacturing
 
 I’ll design an architecture diagram for this concept, detailing the key components such as:
 
