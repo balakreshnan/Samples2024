@@ -11,6 +11,8 @@
 - Platform to allow students to create new experiments and testbeds for research in the area of connected systems
 - Students can try various combinations of color to create new products
 - Test and validate the experiments and records the results
+- Speech enabled to talk the receipe
+- Avatar enabled to show the receipe
 
 ## Pre-requisites
 
