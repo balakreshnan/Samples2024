@@ -1,4 +1,4 @@
-# Hard Hats detection using Florence 3 model
+# Hard Hats detection using Florence 2 model
 
 ## Introduction
 
