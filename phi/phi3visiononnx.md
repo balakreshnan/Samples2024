@@ -151,6 +151,6 @@ Generating response...
 Yes, the image shows a person wearing a hard hat and safety vest, which are commonly used for construction work to protect against potential hazards. The person is also wearing safety goggles, which are used to protect the eyes from debris, dust, or other potential hazards. These items are essential for ensuring the safety and well-being of construction workers on the job site.Time taken: 207.39 seconds
 ```
 
-![info](https://github.com/balakreshnan/Samples2024/blob/main/phi/images/phi3-vision-1 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/phi/images/phi3-vision-1.jpg 'RagChat')
 
-![info](https://github.com/balakreshnan/Samples2024/blob/main/phi/images/phi3-vision-2 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/phi/images/phi3-vision-2.jpg 'RagChat')
