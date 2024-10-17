@@ -312,6 +312,12 @@ def main():
         print(ex)
 
 
+    # azure_ai_project={
+    #     "subscription_id": os.getenv("AZURE_SUBSCRIPTION_ID"),
+    #     "resource_group_name": os.getenv("AZURE_RESOURCE_GROUP"),
+    #     "project_name": os.getenv("AZUREAI_PROJECT_NAME"),
+    #     # "azure_crendential": credential,
+    # }
     subscription_id = os.getenv("AZURE_SUBSCRIPTION_ID")
     resource_group_name = os.getenv("AZURE_RESOURCE_GROUP")
     project_name = os.getenv("AZUREAI_PROJECT_NAME")
@@ -332,7 +338,7 @@ def main():
     # pprint(relevance_evaluator)
 
     # prompty_path = os.path.join("./", "rfp.prompty")
-    content_safety_evaluator = ContentSafetyEvaluator(azure_ai_project)
+    # content_safety_evaluator = ContentSafetyEvaluator(azure_ai_project)
     relevance_evaluator = RelevanceEvaluator(model_config)
     coherence_evaluator = CoherenceEvaluator(model_config)
     groundedness_evaluator = GroundednessEvaluator(model_config)
@@ -350,7 +356,7 @@ def main():
         #    "relevance": {"response": "${target.response}", "context": "${data.context}", "query": "${data.query}"},
         #},
         evaluators={
-            "content_safety": content_safety_evaluator,
+        #    "content_safety": content_safety_evaluator,
             "coherence": coherence_evaluator,
             "relevance": relevance_evaluator,
             "groundedness": groundedness_evaluator,
