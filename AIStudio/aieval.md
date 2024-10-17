@@ -241,7 +241,7 @@ import pandas as pd
 import os
 
 from pprint import pprint
-from azure.ai.evaluation import evaluate
+from azure.ai.evaluation import evaluate, AzureAIProject, AzureOpenAIModelConfiguration
 from azure.identity import DefaultAzureCredential
 from azure.ai.evaluation import RelevanceEvaluator
 from azure.ai.evaluation import (
@@ -287,15 +287,21 @@ def parse_json(data):
 
 def main():
     
-    citationtxt = extractrfpresults("Provide summary of Resources for Railway projects with 200 words?")
+    # Load .env file
+    load_dotenv()
+    #citationtxt = extractrfpresults("Provide summary of Resources for Railway projects with 200 words?")
 
-    # print('Citation Text:', citationtxt)
+    #print('Citation Text:', citationtxt)
+    azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
+    api_key = os.getenv("AZURE_OPENAI_API_KEY")
+    azure_deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT")
+    api_version = os.getenv("AZURE_OPENAI_API_VERSION")
 
     model_config = {
-        "azure_endpoint": os.getenv("AZURE_OPENAI_ENDPOINT"),
-        "api_key": os.getenv("AZURE_OPENAI_API_KEY"),
-        "azure_deployment": os.getenv("AZURE_OPENAI_DEPLOYMENT"),
-        "api_version": os.getenv("AZURE_OPENAI_API_VERSION"),
+        "azure_endpoint": azure_endpoint,
+        "api_key": api_key,
+        "azure_deployment": azure_deployment,
+        "api_version": api_version,
     }
 
 
@@ -306,20 +312,23 @@ def main():
         print(ex)
 
 
-    azure_ai_project={
-        "subscription_id": os.getenv("AZURE_SUBSCRIPTION_ID"),
-        "resource_group_name": os.getenv("AZURE_RESOURCE_GROUP"),
-        "project_name": os.getenv("AZUREAI_PROJECT_NAME"),
-        # "azure_crendential": credential,
-    }
+    subscription_id = os.getenv("AZURE_SUBSCRIPTION_ID")
+    resource_group_name = os.getenv("AZURE_RESOURCE_GROUP")
+    project_name = os.getenv("AZUREAI_PROJECT_NAME")
+    print(subscription_id, resource_group_name, project_name)
+    azure_ai_project = AzureAIProject(subscription_id=subscription_id, 
+                                      resource_group_name=resource_group_name, 
+                                      project_name=project_name, 
+                                      azure_crendential=credential)
+    
 
-    #relevance_evaluator = RelevanceEvaluator(model_config)
+    # relevance_evaluator = RelevanceEvaluator(model_config)
 
-    #relevance_evaluator(
-    #    response=citationtxt,
-    #    context="summary of Resources for Railway projects.",
-    #    query="Provide summary of Resources for Railway projects with 200 words?",
-    #)
+    # relevance_evaluator(
+    #     response="Virginia railway express RFP need introduction, resources.",
+    #     context="summary of Resources for Railway projects.",
+    #     query="Provide summary of Resources for Railway projects with 200 words?",
+    # )
     # pprint(relevance_evaluator)
 
     # prompty_path = os.path.join("./", "rfp.prompty")
@@ -328,7 +337,7 @@ def main():
     coherence_evaluator = CoherenceEvaluator(model_config)
     groundedness_evaluator = GroundednessEvaluator(model_config)
     fluency_evaluator = FluencyEvaluator(model_config)
-    similarity_evaluator = SimilarityEvaluator(model_config)
+    # similarity_evaluator = SimilarityEvaluator(model_config)
 
     results = evaluate(
         evaluation_name="rfpevaluation",
@@ -346,7 +355,7 @@ def main():
             "relevance": relevance_evaluator,
             "groundedness": groundedness_evaluator,
             "fluency": fluency_evaluator,
-            "similarity": similarity_evaluator,
+        #    "similarity": similarity_evaluator,
         },        
         evaluator_config={
             "content_safety": {"query": "${data.query}", "response": "${target.response}"},
@@ -364,7 +373,7 @@ def main():
         output_path="./rsoutputmetrics.json",
     )
     # pprint(results)
-    parse_json(results)
+    # parse_json(results)
     print("Done")
 
 if __name__ == "__main__":    
