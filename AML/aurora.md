@@ -212,6 +212,7 @@ model = model.to("cpu")
 ![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/aurora-4.jpg 'RagChat')
 
 ![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/aurora-5.jpg 'RagChat')
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/aurora-6.jpg 'RagChat')
 
 - Display the output
 
@@ -238,5 +239,7 @@ for i in range(ax.shape[0]):
 
 plt.tight_layout()
 ```
+
+![info](https://github.com/balakreshnan/Samples2024/blob/main/AML/images/aurora-7.jpg 'RagChat')
 
 - done
